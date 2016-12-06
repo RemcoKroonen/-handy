@@ -40,3 +40,8 @@ body {
 	position: relative;
 	left: -150px;
 }
+ul {
+	position: relative;
+	top: -115px;
+	left: 365px;
+}
