@@ -4,6 +4,7 @@ body {
 	font-size : 14px;
 	background-color : black;
 	/* toe te voegen */
+
 }
 .all {
 	text-align : left;
@@ -18,23 +19,47 @@ body {
 	top: -175px;
 	left: 10px;
 }
+#title:hover {
+	position: relative;
+	top: -135px;
+	left: 30px;
+}
 #hammer {
 	position: relative;
 	top: -80px;
 }
+#hammer:hover {
+	position: relative;
+	top: -60px;
+	left: -30px;
+}
 #saw {
 	position: relative;
 	left: -350px;
+	top: 30px;
+}
+#saw:hover{
+	position: relative;
+	left: -320px;
 	top: 50px;
 }
 #pincers{
 	position: relative;
 	left: 550px;
 }
+#pincers:hover {
+	position: relative;
+	left: 510px;
+}
 #screwdriver {
 	position: relative;
 	top: -135px;
 	left: 350px;
+}
+#screwdriver:hover {
+	position: relative;
+	top: -100px;
+	left: 310px;
 }
 #toolbox {
 	position: relative;
@@ -44,4 +69,18 @@ ul {
 	position: relative;
 	top: -115px;
 	left: 365px;
+}
+h1{
+	margin: 0px;
+  background-color: white;
+  opacity: 0.6;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+p {
+	margin: 0px;
+	background-color: white;
+  opacity: 0.6;
+  padding-left: 15px;
+  padding-right: 15px;
 }
