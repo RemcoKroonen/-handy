@@ -75,19 +75,16 @@ ul {
 }
 h1{
 	margin: 0px;
-  background-color: white;
-  opacity: 0.6;
-   padding-left: 15px;
-   padding-right: 15px;
-   
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgba(255,255,255,0.6);
 }
 p {
 	margin: 0px;
-	background-color: white;
-  opacity: 0.6;
-  padding-left: 15px;
-  padding-right: 15px;
-  
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgba(255,255,255,0.6);
+
 }
 #dropdown{
 	display: none;
@@ -109,8 +106,8 @@ a {text-decoration: none; }
 	background-color: #FFFF99;
 }
 .menu {
- background-image: url("img/bar1.png");
-  background-repeat: repeat-x;
+	background-image: url("img/bar1.png");
+	background-repeat: repeat-x;
 
 }
 
@@ -124,10 +121,10 @@ a {text-decoration: none; }
 	position: absolute;
 	z-index: 100;
 	color: black;
-	width: 100px;
+	width: 200px;
 	background-color: white;
 	border: 1px solid blue;
-    border-radius: 5px;
+	border-radius: 5px;
 }
 #humanfactor{
 	z-index: 101;
