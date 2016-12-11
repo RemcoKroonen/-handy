@@ -3,6 +3,7 @@ body {
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
+	margin: 0px;
 	/* toe te voegen */
 
 }
@@ -78,6 +79,7 @@ h1{
   opacity: 0.6;
    padding-left: 15px;
    padding-right: 15px;
+   
 }
 p {
 	margin: 0px;
@@ -85,6 +87,7 @@ p {
   opacity: 0.6;
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 #dropdown{
 	display: none;
@@ -106,25 +109,41 @@ a {text-decoration: none; }
 	background-color: #FFFF99;
 }
 .menu {
- margin: 1px;
- padding: 1px;
- border: 1px solid white;
- text-align: center;
+ background-image: url("img/bar1.png");
+  background-repeat: repeat-x;
 
 }
 
-.menu ul li {
- display: inline; 
- padding: 0 5px;
-}
-
-.menu ul li a, a:link, a:visited, a:active {
- color: #666;
- text-decoration: none;
-}
 
 .menu ul li a:hover {
  color: #333;
  text-decoration: underline;
 }
+#humanfactor span{
+	display: none;
 
+}
+#humanfactor:hover span {
+	display: block;
+	position: absolute;
+	color: black;
+	width: 100px;
+	background-color: white;
+}
+#humanfactor{
+	z-index: 101;
+}
+.menu a{
+	padding-left: 25px;
+	position: relative;
+	top: -2px;
+}
+.menu:hover {
+	background-image:  url(img/bar2.png);
+	background-repeat: repeat-x;
+
+
+}
+.menu:hover a{
+	color: black;
+}
