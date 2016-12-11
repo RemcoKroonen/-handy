@@ -115,10 +115,6 @@ a {text-decoration: none; }
 }
 
 
-.menu ul li a:hover {
- color: #333;
- text-decoration: underline;
-}
 #humanfactor span{
 	display: none;
 
@@ -126,23 +122,25 @@ a {text-decoration: none; }
 #humanfactor:hover span {
 	display: block;
 	position: absolute;
+	z-index: 100;
 	color: black;
 	width: 100px;
 	background-color: white;
+	border: 1px solid blue;
+    border-radius: 5px;
 }
 #humanfactor{
 	z-index: 101;
+	color: blue;
 }
 .menu a{
 	padding-left: 25px;
-	position: relative;
 	top: -2px;
+	position: relative;
 }
 .menu:hover {
 	background-image:  url(img/bar2.png);
 	background-repeat: repeat-x;
-
-
 }
 .menu:hover a{
 	color: black;
