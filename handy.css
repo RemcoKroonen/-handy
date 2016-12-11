@@ -68,7 +68,8 @@ body {
 ul {
 	position: relative;
 	top: -115px;
-	left: 365px;
+	left: 305px;
+	list-style-type: none;
 }
 h1{
 	margin: 0px;
@@ -83,4 +84,16 @@ p {
   opacity: 0.6;
   padding-left: 15px;
   padding-right: 15px;
+}
+#dropdown{
+	display: none;
+	position: absolute;
+
+}
+#toolbox:hover #dropdown {
+	display: block;
+}
+li {
+	background-color: white;
+
 }
